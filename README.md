@@ -1,52 +1,11 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <title>개인정보처리방침 - 아니쥬</title>
-</head>
-<body>
-  <h1>개인정보처리방침</h1>
+# 아니쥬 개인정보처리방침
 
-  <h2>1. 앱 소개 및 개인정보 수집 목적</h2>
-  <p><strong>아니쥬(ineedyou)</strong>는 사용자가 특정 게임을 <strong>함께 시작하고, 함께 끝내는 경험</strong>을 목표로 만들어진 앱입니다.<br>
-  기존의 오픈 커뮤니티나 메신저(카카오톡, 디스코드 등)에서는 나이대나 활동 시간대가 맞지 않아 게임을 함께 즐기기 어려운 문제를 해결하기 위해, 사용자의 <strong>연령대</strong>와 <strong>게임 가능 시간대</strong>에 기반한 매칭 시스템을 제공합니다.</p>
-  <p>이를 위해 사용자의 <strong>Google 로그인 정보, 닉네임, 생년월일, 게임 스타일(장르 선호도), 활동 시간대</strong> 등의 정보를 수집하고 있습니다.</p>
+이 저장소는 모바일 앱 **아니쥬(ineedyou)**의 개인정보처리방침을 안내하기 위한 페이지입니다.
 
-  <h2>2. 수집하는 개인정보 항목</h2>
-  <table border="1" cellpadding="6">
-    <tr><th>항목</th><th>수집 목적</th></tr>
-    <tr><td>Google 계정(이메일)</td><td>로그인 및 사용자 식별</td></tr>
-    <tr><td>닉네임</td><td>앱 내에서 사용자 식별 및 파티 매칭</td></tr>
-    <tr><td>생년월일</td><td>연령대 기반 매칭</td></tr>
-    <tr><td>활동 시간대</td><td>비슷한 시간대의 사용자와 매칭</td></tr>
-    <tr><td>게임 스타일</td><td>선호 성향 기반 추천 또는 파티 구성 참고용</td></tr>
-    <tr><td>프로필 이미지 (선택)</td><td>사용자 프로필 시각화</td></tr>
-  </table>
+- `privacy.html` 파일을 통해 사용자의 개인정보 수집 및 이용 목적을 고지합니다.
+- 본 레포지토리는 Google Play Console 제출 시 요구되는 개인정보처리방침 URL 제공 용도로 사용됩니다.
 
-  <h2>3. 개인정보의 이용 목적</h2>
-  <ul>
-    <li>사용자 식별 및 계정 관리</li>
-    <li>유사 시간대 및 연령대 기반 파티 매칭</li>
-    <li>게임 성향 기반의 사용자 연결</li>
-    <li>앱 내 통계 기능 제공 (예: 연속 접속일, 파티 참여 수)</li>
-    <li>향후 사용자 피드백 기반의 기능 개선</li>
-  </ul>
+👉 실제 페이지 보기:  
+https://[your-github-username].github.io/privacy-policy/privacy.html
 
-  <h2>4. 개인정보 보관 및 보호</h2>
-  <p>모든 정보는 <strong>Google Firebase Authentication, Cloud Firestore, Firebase Storage</strong>를 통해 보관되며, Google의 인프라를 기반으로 안전하게 관리됩니다.<br>
-  사용자의 정보를 제3자에게 제공하지 않으며, 앱 내부 기능 구현에만 사용됩니다.<br>
-  사용자는 앱 내에서 프로필을 삭제하거나 수정할 수 있습니다.</p>
-
-  <h2>5. 만 13세 미만 아동의 개인정보</h2>
-  <p>이 앱은 <strong>만 13세 미만 아동을 대상으로 하지 않으며</strong>, 해당 연령 사용자의 개인정보를 의도적으로 수집하지 않습니다. 만약 해당 연령 사용자의 정보가 수집된 것으로 확인될 경우, 즉시 삭제 조치합니다.</p>
-
-  <h2>6. 변경 및 고지</h2>
-  <p>개인정보처리방침은 기능 추가 또는 법령 변경 시 업데이트될 수 있으며, 변경 사항은 앱 내 공지 또는 GitHub Pages 내 링크를 통해 고지됩니다.</p>
-
-  <h2>7. 문의</h2>
-  <p>앱 관련 문의 또는 개인정보 관련 요청은 아래 이메일로 연락주시기 바랍니다.</p>
-  <ul>
-    <li>📧 이메일: ineedyou.team@gmail.com</li>
-  </ul>
-</body>
-</html>
+문의: ineedyou.team@gmail.com
